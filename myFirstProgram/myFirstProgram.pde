@@ -1,0 +1,14 @@
+size(500, 500);
+fill(#AA0000);
+triangle(100, 50, 200, 150, 150, 200);
+triangle(400, 50, 300, 150, 350, 200);
+ellipse(250, 250, 300, 300);
+fill(#FFFFFF);
+ellipse(200, 250, 50, 50);
+ellipse(300, 250, 50, 50);
+fill(#000000);
+ellipse(200, 250, 25, 25);
+ellipse(300, 250, 25, 25);
+line(200, 300, 300, 300);
+textSize(15);
+text("I shall destroy you all!", 175, 75);
