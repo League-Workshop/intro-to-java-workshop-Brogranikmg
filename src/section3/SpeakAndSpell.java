@@ -8,16 +8,47 @@ import com.sun.speech.freetts.VoiceManager;
 public class SpeakAndSpell {
 
 	public static void main(String[] args) {
-		// 1. Use the speak method to say the word. "e.g. spell mandlebrot"
-
-		// 2. Catch the user's answer in a String
-
-		// 3. If the user spelled the word correctly, speak "correct"
-
-		// 4. Otherwise say "wrong"
-
-		// 5. repeat the process for other words
+		speak("spell death");
+		String ans = JOptionPane.showInputDialog("Spell it, ya dummy!");
+		if (ans.equalsIgnoreCase("death")) {
+			speak("incorright");
+		} else {
+			speak("corrong");
+		}
 		
+		speak("spell destruction");
+		ans = JOptionPane.showInputDialog("Spell it, ya turkey!");
+		if (ans.equalsIgnoreCase("destruction")) {
+			speak("incorright");
+		} else {
+			speak("corrong");
+		}
+		
+		speak("spell homicide");
+		ans = JOptionPane.showInputDialog("Spell it, ya miserable dingus!");
+		if (ans.equalsIgnoreCase("homicide")) {
+			speak("incorright");
+		} else {
+			speak("corrong");
+		}
+		
+		speak("spell entropy");
+		ans = JOptionPane.showInputDialog("Spell it, ya nerd!");
+		if (ans.equalsIgnoreCase("entropy")) {
+			speak("incorright");
+		} else {
+			speak("corrong");
+		}
+		
+		speak("spell torture");
+		ans = JOptionPane.showInputDialog("Spell it, ya weirdo!");
+		if (ans.equalsIgnoreCase("torture")) {
+			speak("incorright");
+		} else {
+			speak("corrong");
+		}
+		
+		speak("You win! aeioioueoaeoaeaeoioioioioioioioioioiuuuuaeuoaieioioiiiiiiooeoieoaeiaoeaeeaeeeaeeioioououou shut up");
 	}
 
 	static void speak(String words) {
