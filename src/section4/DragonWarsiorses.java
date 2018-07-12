@@ -18,7 +18,7 @@ public class DragonWarsiorses {
 		JOptionPane.showMessageDialog(null, "You're exploring a mysterious cave, when you stumble upon a vast pile of glittering treasure.");
 		JOptionPane.showMessageDialog(null, "As you stand there, shocked and surprised by your extremely lucky find, you almost miss the roar of a dragon.");
 		while (health > 0 && dragon > 0) {
-			selected = JOptionPane.showOptionDialog(null, "You are fighting a dragon!\n\nYour Health: " + health + "/100\nYour Mana: " + mana + "/50\n-----\nDragon Health: " + dragon + "/100\n\nCandy Bars: " + bars, "Battle", JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.PLAIN_MESSAGE, null, attacks, null);
+			selected = JOptionPane.showOptionDialog(null, "You are fighting a dragon!\n\nYour Health: " + health + "/75\nYour Mana: " + mana + "/50\n-----\nDragon Health: " + dragon + "/100\n\nCandy Bars: " + bars, "Battle", JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.PLAIN_MESSAGE, null, attacks, null);
 			if (selected == 0) {
 				if (mana >= 5) {
 					dragon -= 5;
